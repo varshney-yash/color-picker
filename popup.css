@@ -1,0 +1,43 @@
+body {
+    background: #f1f5f9;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    width: 300px;
+    text-align: center;
+}
+.change-color-btn {
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background: blanchedalmond;
+    cursor: pointer;
+    color: black;
+}
+
+.change-color-btn:hover {
+    background: rgba(0, 128, 255, 0.8);
+}
+
+.change-color-btn:active {
+    transform: translateY(1px);
+}
+
+.color-grid {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.color-hex {
+    margin-left: 5px;
+    font-weight: bold;
+}
